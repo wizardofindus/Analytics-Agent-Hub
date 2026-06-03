@@ -4,23 +4,25 @@ Analytics Agent Hub is a unified AI-powered analytics platform that combines SQL
 
 **Built using:**
 
-Python
-Streamlit
-Google Gemini
-SQLite
-FAISS
-LangChain
-Plotly
-Sentence Transformers
-Project Overview
+* Python
+* Streamlit
+* Google Gemini
+* SQLite
+* FAISS
+* LangChain
+* Plotly
+* Sentence Transformers.
+
+  
+### Project Overview
 
 Organizations often maintain separate tools for:
 
-Business Intelligence
-SQL Querying
-Dashboard Analysis
-Document Search
-Executive Reporting
+* Business Intelligence
+* SQL Querying
+* Dashboard Analysis
+* Document Search
+* Executive Reporting
 
 Analytics Agent Hub unifies these capabilities into one conversational interface.
 
@@ -47,11 +49,11 @@ GROUP BY Region;
 
 **Capabilities:**
 
-SQL generation
-SQL validation
-SQL execution
-SQLite integration
-Dynamic result visualization
+* SQL generation
+* SQL validation
+* SQL execution
+* SQLite integration
+* Dynamic result visualization
 
 ### 2. Enterprise RAG Chatbot
 
@@ -59,11 +61,11 @@ Dynamic result visualization
 
 **Capabilities:**
 
-PDF ingestion
-Vector embeddings
-Semantic search
-Context-aware question answering
-FAISS vector database
+* PDF ingestion
+* Vector embeddings
+* Semantic search
+* Context-aware question answering
+* FAISS vector database
 
 ### Workflow:
 <img width="1024" height="1536" alt="RAG_pipeline" src="https://github.com/user-attachments/assets/2ab73510-fe5c-4e1a-a524-a5ee9d189b78" />
@@ -75,12 +77,12 @@ Automated business intelligence insights.
 
 **Capabilities:**
 
-KPI detection
-Trend analysis
-Region analysis
-Category analysis
-Executive summaries
-Business recommendations
+* KPI detection
+* Trend analysis
+* Region analysis
+* Category analysis
+* Executive summaries
+* Business recommendations
 
 **Generated Output:**
 
@@ -100,46 +102,48 @@ Natural language business intelligence assistant.
 
 **Examples:**
 
-Why did profit decline?
-What KPIs should management track?
-Recommend dashboard visuals.
+* Why did profit decline?
+* What KPIs should management track?
+* Recommend dashboard visuals.
 
 **Capabilities:**
 
-KPI reasoning
-Analytics recommendations
-Visualization suggestions
-Executive reporting
-Technology Stack
-Component	Technology
-Frontend	Streamlit
-LLM	Gemini 1.5 Flash
-Vector Database	FAISS
-Embeddings	MiniLM
-Database	SQLite
-Analytics	Pandas
-Visualization	Plotly
-RAG Framework	LangChain
+* KPI reasoning
+* Analytics recommendations
+* Visualization suggestions
+* Executive reporting
+
+
+## Technology Stack
+
+* Frontend:	Streamlit
+* LLM:	Gemini 2.5 Flash
+* Vector Database:	FAISS
+* Embeddings:	MiniLM
+* Database:	SQLite
+* Analytics:	Pandas
+* Visualization:	Plotly
+* RAG Framework:	LangChain
 
 ### Installation
 
-Clone Repository
+**Clone Repository**
 
 git clone https://github.com/yourusername/Analytics-Agent-Hub.git
 
 cd Analytics-Agent-Hub
 
-Install Dependencies
+**Install Dependencies**
 
 pip install -r requirements.txt
 
-Configure Gemini API
+**Configure Gemini API:**
 
 Inside analytics_agent_hub.py:
 
 GEMINI_API_KEY="YOUR_API_KEY"
 
-Run Application
+**Run Application**
 
 streamlit run analytics_agent_app.py
 
@@ -169,43 +173,43 @@ Enterprise BI:
 
 SQL Assistant:
 
-Profit by region
-Top 2 Products by sales
+* Profit by region
+* Top 2 Products by sales
 
 RAG Chatbot:
 
-Summarize operational risks
-What policies mention inventory management?
+* Summarize operational risks
+* What policies mention inventory management?
 
 BI Copilot:
 
-Why is profitability declining?
-Suggest revenue improvement strategies.
+* Why is profitability declining?
+* Suggest revenue improvement strategies.
 
 ### Business Value
 
 The platform enables:
 
-Self-service analytics
-Faster decision making
-Natural language data exploration
-Executive reporting automation
-Enterprise knowledge retrieval
-AI-assisted business intelligence
+* Self-service analytics
+* Faster decision making
+* Natural language data exploration
+* Executive reporting automation
+* Enterprise knowledge retrieval
+* AI-assisted business intelligence
 
 ## Future Enhancements:
 
 Planned improvements:
 
-Multi-Agent Workflow Engine
-Authentication
-Azure OpenAI Integration
-Power BI Integration
-Snowflake Integration
-Real-time Database Connections
-Dashboard Export to PDF
-KPI Forecasting
-Anomaly Detection Engine.
+* Multi-Agent Workflow Engine
+* Authentication
+* Azure OpenAI Integration
+* Power BI Integration
+* Snowflake Integration
+* Real-time Database Connections
+* Dashboard Export to PDF
+* KPI Forecasting
+* Anomaly Detection Engine.
 
 ### Author:
 
